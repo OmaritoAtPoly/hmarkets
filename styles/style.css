@@ -91,6 +91,14 @@ body {
       text-decoration: none;
       color: white; }
 
+@media (min-width: 768px) and (max-width: 950px) {
+  .main-container .centered-content .text-container::after {
+    top: 90%; }
+  .main-container .centered-content .text-container__h1 {
+    font-size: 50px; }
+  .main-container .centered-content .text-container__p {
+    font-size: 25px; } }
+
 .main-container .lower-content {
   background-color: white;
   padding-block: 100px; }
@@ -126,6 +134,14 @@ body {
         text-align: center;
         max-width: 250px; }
 
+@media (min-width: 768px) and (max-width: 950px) {
+  .main-container .lower-content__title {
+    font-size: 25px; }
+  .main-container .lower-content__features {
+    gap: 50px 30px; }
+    .main-container .lower-content__features__item-wrapper .text-content h4 {
+      font-size: 25px; } }
+
 .main-container .availability-ribbon {
   margin-block: 50px; }
   .main-container .availability-ribbon h3 {
@@ -147,3 +163,7 @@ body {
   margin-inline: auto; }
   .main-container .footer-content h5 span {
     color: #D5B56E; }
+
+@media (min-width: 768px) and (max-width: 950px) {
+  .main-container .footer-content h5 {
+    font-size: 18px; } }
