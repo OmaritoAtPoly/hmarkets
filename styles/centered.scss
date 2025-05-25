@@ -102,3 +102,31 @@
         }
     }
 }
+
+@media (min-width: 951px) {
+    .main-container {
+        .centered-content {
+            .text-container {
+                &::after {
+                    top: 90%;
+                    background: radial-gradient(circle, rgba(255, 122, 0, 0.15) 0%, rgba(0, 0, 0, 1) 100%);
+                }
+
+                &__h6 {
+                    font-size: 21.48px;
+                    margin: 0;
+                }
+
+                &__h1 {
+                    font-size: 131.71px;
+                    margin: 10px 0 0;
+                }
+
+                &__p {
+                    margin-top: 50px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}

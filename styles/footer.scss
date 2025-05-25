@@ -27,3 +27,16 @@
         }
     }
 }
+
+@media (min-width: 951px) {
+    .main-container {
+        .footer-content {
+            h5 {
+                font-size: 18px;
+                width: 100%;
+                text-wrap: nowrap;
+                margin: 45px 0;
+            }
+        }
+    }
+}
