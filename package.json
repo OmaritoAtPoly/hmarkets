@@ -1,0 +1,22 @@
+{
+  "name": "hmarkets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass --include-path scss ./styles/styles.scss ./styles/style.css",
+    "uglify-css": "uglifycss ./styles/style.css > ./styles/style.min.css",
+    "watch": "nodemon -e scss -x 'npm run css && npm run uglify-css'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.10",
+    "sass": "^1.89.0"
+  },
+  "dependencies": {
+    "uglifycss": "^0.0.29"
+  }
+}
