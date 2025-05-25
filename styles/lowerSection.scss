@@ -71,3 +71,25 @@
         }
     }
 }
+
+@media (min-width: 951px) {
+    .main-container {
+        .lower-content {
+            &__title {
+                font-size: 38px;
+            }
+
+            &__features {
+                &__item-wrapper {
+                    .text-content {
+                        margin: 32px 0 20px 0;
+
+                        h4 {
+                            font-size: 38px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
