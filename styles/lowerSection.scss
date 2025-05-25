@@ -49,3 +49,25 @@
         }
     }
 }
+
+@media (min-width: 768px) and (max-width: 950px) {
+    .main-container {
+        .lower-content {
+            &__title {
+                font-size: 25px;
+            }
+
+            &__features {
+                gap: 50px 30px;
+
+                &__item-wrapper {
+                    .text-content {
+                        h4 {
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
