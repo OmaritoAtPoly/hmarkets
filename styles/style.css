@@ -205,3 +205,57 @@ body {
     width: 100%;
     text-wrap: nowrap;
     margin: 45px 0; } }
+
+.cookies-container {
+  position: sticky;
+  margin-inline: auto;
+  width: fit-content;
+  z-index: 1;
+  inset: 0; }
+  .cookies-container #consentBox {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center; }
+  .cookies-container #consentBox.hide {
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: all 5.3s ease;
+    display: none; }
+  .cookies-container ::selection {
+    color: #fff;
+    background: #02A9E0; }
+  .cookies-container #consentContent p {
+    color: #858585;
+    margin: 10px 0 20px 0; }
+  .cookies-container #consentContent .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; }
+  .cookies-container .consentButton,
+  .cookies-container .rejectButton {
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; }
+  .cookies-container .consentButton {
+    background: #02A9E0;
+    margin-right: 10px; }
+  .cookies-container .rejectButton {
+    color: #111211;
+    background: transparent;
+    border: 2px solid #099c2c;
+    text-decoration: none; }
+  .cookies-container #consentBox img {
+    max-width: 90px; }
+  .cookies-container #consentHeader {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px; }
