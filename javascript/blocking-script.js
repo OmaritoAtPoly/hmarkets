@@ -9,7 +9,7 @@
         if (response.status === 200) {
             response = await response.json();
 
-            if (blockedCountries.includes(userCountry)) {
+            if (blockedCountries.includes(response.country)) {
                 document.body.innerHTML = htmlElement;
             }
         }
