@@ -259,3 +259,7 @@ body {
     font-size: 25px;
     font-weight: 600;
     margin-top: 10px; }
+
+.access-denied h1, .access-denied p {
+  color: white;
+  text-align: center; }
